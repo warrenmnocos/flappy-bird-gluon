@@ -46,7 +46,6 @@ public class FlappyBirdApplication extends Application {
         primaryStage.setFullScreenExitHint("");
         primaryStage.setTitle("Just Another Flappy Bird Game");
         primaryStage.centerOnScreen();
-        primaryStage.getIcons().add(bird.snapshot(new SnapshotParameters(), null));
         primaryStage.setScene(scene);
         primaryStage.show();
     }
